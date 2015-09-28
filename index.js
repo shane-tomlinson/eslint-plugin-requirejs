@@ -19,6 +19,7 @@ module.exports = {
         "no-conditional-require": require("./lib/rules/no-conditional-require"),
         "no-assign-require": require("./lib/rules/no-assign-require"),
         "no-require-tourl": require("./lib/rules/no-require-tourl"),
+        "no-unsorted-paths": require("./lib/rules/no-unsorted-paths"),
         "enforce-define": require("./lib/rules/enforce-define"),
         "one-dependency-per-line": require("./lib/rules/one-dependency-per-line")
     },
@@ -44,6 +45,7 @@ module.exports = {
         "no-conditional-require": 0,
         "no-assign-require": 0,
         "no-require-tourl": 0,
+        "no-unsorted-paths": 0,
         "enforce-define": 0,
         "one-dependency-per-line": 0
     }
